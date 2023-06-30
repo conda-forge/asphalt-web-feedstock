@@ -1,4 +1,4 @@
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 
 package:
   name: asphalt-web
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/a/asphalt-web/asphalt-web-{{ version }}.tar.gz
-  sha256: 17039c9673ed3491f3276fc737480b772f63280c885201e33c69a93d7c37d84c
+  sha256: 016a6d9c302b74697648d9a438cfb14c4a1d8c3c48b17ec0cc5bff82072796c2
 
 build:
   noarch: python
@@ -18,7 +18,7 @@ requirements:
     - python
     - pip
   run:
-    - python >=3.7
+    - python >=3.8
     - asphalt >=4.8,<5
 
 test:
