@@ -11,7 +11,7 @@ Summary: Web framework integrations for the Asphalt framework
 
 Development: https://github.com/asphalt-framework/asphalt-web
 
-Documentation: ihttps://asphalt-web.readthedocs.org
+Documentation: https://asphalt-web.readthedocs.org
 
 Current build status
 ====================
